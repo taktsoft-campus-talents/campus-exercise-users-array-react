@@ -1,0 +1,25 @@
+:root {
+  --color-white: rgb(239, 239, 239);
+  --color-black: rgb(28, 28, 28);
+  --color-highlight: rgb(238, 0, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: var(--color-black);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 80%;
+  color: var(--color-white);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
